@@ -1,0 +1,11 @@
+name: spigotNewWrite
+version: '1.0-SNAPSHOT'
+main: org.psyco.spigotNewWrite.SpigotNewWrite
+api-version: '1.21'
+authors: [ psyco_tw ]
+description: best miner plugin
+commands:
+  test:
+    tab-completer: org.psyco.spigotNewWrite.tabcompleter
+  game:
+    tab_completer: org.psyco.spigotNewWrite.tabcompleter;
